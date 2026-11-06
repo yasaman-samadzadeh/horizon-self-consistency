@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "horizon-self-consistency: a self-consistency test across forecast horizons for time-series foundation models"
+type: software
+authors:
+  - family-names: Samadzadeh
+    given-names: Yasaman
+version: 0.1.0
+date-released: 2026-11-06
+repository-code: "https://github.com/yasaman-samadzadeh/horizon-self-consistency"

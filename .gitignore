@@ -1,0 +1,37 @@
+# environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+.uv-cache/
+.hf_cache/
+huggingface/
+wandb/
+
+# data (see README: the TIME benchmark goes in data/TIME)
+data/
+
+# outputs: only small summaries (.json, tables.md, summary.md, tasks.csv) are tracked
+results/raw/
+results/figures/
+results/**/figures/
+results/**/checkpoints/
+results/build_time/*/
+results/build_time_reference/
+*.npz
+*.npy
+*.png
+*.pdf
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoints/
+
+# logs
+logs/
+*.log
+*.out
+slurm-*.out
